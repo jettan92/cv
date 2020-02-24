@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet's CV</title>
+</head>
+<body>
+    <h1>TAN YOU JIE JET</h1>
+    7-6-10 Shimosakunobe, Takatsu-ku, Kawasaki-shi, Kanagawa, JP
+    <br>
+    +8190-9299-2979 | jettan.92@gmail.com
+    <br>
+    <br>
+    <hr>
+    <h2>Personal Attributes</h2>
+    <ul>
+        <li>Multilingual in English, Japanese, Chinese, Korean, Malay.</li>
+        <li>Highly motivated and goal-oriented with good attention to detail.</li>
+        <li>Good listening and communication skills.</li>
+        <li>Team player who enjoys working with people from diverse cultures and backgrounds.</li>
+        <li>Quick learner with enthusiasm for new technologies.</li>
+        <li>Strong sense of responsibility with a focus on improving the status quo.</li>
+    </ul>
+    <hr>
+    <h2>Education</h2>
+    <h3>Nagoya Institute of Technology ◆ Apr 2011 - Mar 2015</h3>
+    Bachelor in Computer Science
+    <hr>
+    <h2>Certifications</h2>
+    <b>LPI</b>: LPIC-1 Linux Administrator
+    <hr>
+    <h2>Technical Skills</h2>
+    <b>Hardware:</b> HPE ProLiant/Dell PowerEdge/Cisco UCS servers, HPE 3PAR/Nimble Storage/Pure Storage
+    <br>
+    <br>
+    <b>OS:</b> VMware ESXi, Debian/RedHat, Windows Server, Windows 7/10, macOS, Cisco NX-OS
+    <br>
+    <br>
+    <b>Languages:</b> PowerShell, bash, Java, Python, C
+    <br>
+    <br>
+    <b>VMs/Containers:</b> VMWare vSphere, Docker, Kubernetes, KVM
+    <br>
+    <br>
+    <b>Config Management:</b> Vester (PowerShell framework), Chef
+    <hr>
+    <h2>Professional Experience</h2>
+    <h3>IaaS Administrator, Rakuten ◆  Apr 2015 - Oct 2017</h3>
+    <h4>Tasks</h4>
+    Manage, administer vSphere-based IaaS (25000+ VMs, 900+ servers). Plan, execute deployment and allocation of
+    servers according to dynamically-changing resource requirements. Manage software, driver versions by
+    determining optimal version and implementing it. Support internal users by troubleshooting latency issues,
+    managing access privileges and other general usage queries. Troubleshoot, resolve vSphere configuration and
+    installation issues. Write, review scripts to automate operations and check for configuration consistency.
+    Handle alerts.
+    <h4>Key Achievements</h4>
+    <ul>
+        <li>Due to rack limitations, provisioning of new servers had to be stopped for 6 months. Through careful
+            planning and calculation, I was able to accommodate the continuous creation of new VMs by optimizing
+            server allocation between existing clusters.
+        </li>
+        <li>Single-handedly planned for and executed the upgrade-cum-migration of our Windows-based vCenter
+            environment to Linux-based while cleaning up legacy network configurations. This resulted in higher
+            stability and ease of management with reduced man-hours spent on vCenter troubleshooting (~1day every
+            2 wks → 1,2 hrs every mth).
+        </li>
+    </ul>
+    <h3>IaaS Administrator+Improver, Rakuten  ◆  Nov 2017 - Oct 2018</h3>
+    <h4>Tasks</h4>
+    Same as above but less administration/operations, more improvement-focused. Investigate, plan and execute ideas
+    to improve stability, manageability and reduce operation time. Manage weekly system improvement meeting to
+    coordinate, discuss improvement tasks. Communicate, collaborate with and transfer knowledge to offshore team.
+    <h4>Key Achievements</h4>
+    <ul>
+        <li>Overhauled entire ESXi server configuration process by implementing Configuration as Code (CaC). Done
+            by building on open-source tool while adding unique features to fit system design. Configuration of
+            servers is structured and output is clear and reliable, resulting in easy maintenance and possible
+            automation of higher level processes.
+        </li>
+        <li>Implemented a set of scripts for taking an ESXi server in/out of service, and for doing a coordinated
+            rolling upgrade of the OS, drivers and firmware of ESXi server, by utilizing the aforementioned CaC.
+            As a result, efficiency of man-hours spent on rolling upgrades improved dramatically (4-6 servers in
+            1 day → max of 47 servers in 1 day) while reducing possible human errors to near-zero.
+        </li>
+    </ul>
+    <h3>Cloud Infrastructure Engineer, Rakuten  ◆  Nov 2018 - Jan 2020</h3>
+    <h4>Tasks</h4>
+    Switched role to become a junior developer on new OSS-based Baremetal-As-A-Service. Read, review code and fix
+    minor bugs while understanding frameworks used, process flow from code to deployment and overall architecture.
+    Design and implement features by working on API endpoints, external tools and DAO-based database access.
+    Manage and update infrastructure with Chef. Organize user documentation. Facilitate scrum events for team.
+    <h4>Key Achievements</h4>
+    <ul>
+        <li>Designed and implemented a new and improved way of how server IPMI commands are accessed by the system
+            and managed by administrators. Done by moving the commands out from application code and into a JSON
+            file. Also isolated common commands from manufacturer/model specific ones, then arranged them in a
+            hierarchical format (common -> manufacturer-specific -> model-specific). This greatly reduced
+            overlapping code, eliminated the need to recompile and redeploy the application due to changes in IPMI
+            commands, and improved manageability of IPMI commands.
+        </li>
+    </ul>
+    <h3>O365 Support Engineer, Microsoft  ◆  Feb 2020 - Current</h3>
+</body>
+</html>
